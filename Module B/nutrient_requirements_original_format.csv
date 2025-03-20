@@ -1,0 +1,16 @@
+Gender,Age (years),Recommended BMI,Fat( in g),Carbohydrates( in g),Protein( in g),Dietary Fiber( in g),Water( in litre),Vitamin A( in mg),Vitamin B11 (Folate)( in mg),Vitamin B12 (mg),Vitamin C,Vitamin D( in mg),Vitamin E( in mg),Vitamin K( in mg),Calcium( in mg),Iron( in mg),Magnesium( in mg),Manganese( in mg)
+Infant(male or female),under 2,Refer growth chart using weight-for-length measurements,30–40 g,95 g,11 g,not specific recommendation(introduce  fiber-rich foods),adequate hydration from breast milk or formula milk,300 µg,80 µg,0.5 µg,40 mg,10 µg,5 mg,2.5 µg,260 mg,11 mg,80 mg,0.6 mg
+Female,2-9,16.2- 17.8,42-58 g,169-244 g,38-113 g,14-21 g,1.3- 1.7 liters,300-400 µg,150-200 µg,1.2-1.8 µg,15-25 mg,15 µg,6-7 mg,55-60 µg,700-1000 mg,7-10 mg,80-130 mg,1.2-1.5 mg
+Male,2-9,16.4 - 17.6,42-58 g,169-244 g,38-113 g,14-21 g,1.3- 1.7 liters,300-400 µg,150-200 µg,1.2-1.8 µg,15-25 mg,15 µg,6-7 mg,55-60 µg,700-1000 mg,7-10 mg,80-130 mg,1.2-1.5 mg
+Female,10-19,17.8-22.6,65 g,260 g,34-46 g,25 g,2.7–3 L,700 µg,400 µg,2.4 µg,65 mg,15 µg,15 mg,75 µg,1300 mg,11 mg,360 mg,1.6 mg
+Male,10-19,17.6-22.5,65 g,260 g,34-52 g,38 g,3 L,900 µg,400 µg,2.4 µg,75 mg,15 µg,15 mg,75 µg,1300 mg,15 mg,410 mg,2.2 mg
+Female,20-29,18.5 – 24.9,70 g,260 g,46 g,25 g,2.7 L,0.7 mg,0.4 mg,2.4 µg,75 mg,15 µg,15 mg,0.09 mg,1000 mg,18 mg,320 mg,1.8 mg
+Male,20-29,18.5 – 24.9,70 g,260 g,56 g,38 g,3.7 L,0.9 mg,0.4 mg,2.4 µg,90 mg,15 µg,15 mg,0.12 mg,1000 mg,8 mg,420 mg,2.3 mg
+Female,30-39,18.5 – 24.9,70 g,260 g,46 g,25 g,2.7 L,0.7 mg,0.4 mg,2.4 µg,75 mg,15 µg,15 mg,0.09 mg,1000 mg,18 mg,320 mg,1.8 mg
+Male,30-39,18.5 – 24.9,70 g,260 g,56 g,38 g,3.7 L,0.9 mg,0.4 mg,2.4 µg,90 mg,15 µg,15 mg,0.12 mg,1000 mg,8 mg,420 mg,2.3 mg
+Female,40-49,18.5 – 24.9,70 g,260 g,46 g,25 g,2.7 L,0.7 mg,0.4 mg,2.4 µg,75 mg,15 µg,15 mg,0.09 mg,1000 mg,18 mg,320 mg,1.8 mg
+Male,40-49,18.5 – 24.9,70 g,260 g,56 g,38 g,3.7 L,0.9 mg,0.4 mg,2.4 µg,90 mg,15 µg,15 mg,0.12 mg,1000 mg,8 mg,420 mg,2.3 mg
+Female,50 - 59,18.5 – 24.9,70 g,260 g,46 g,25 g,2.7 L,0.7 mg,0.4 mg,2.4 µg,75 mg,15 µg,15 mg,0.09 mg,1200 mg,8 mg,320 mg,1.8 mg
+Male,50 - 59,18.5 – 24.9,70 g,260 g,56 g,38 g,3.7 L,0.9 mg,0.4 mg,2.4 µg,90 mg,15 µg,15 mg,0.12 mg,1000 mg,8 mg,420 mg,2.3 mg
+Female,60-100,22.0 – 27.0,65–70 g,260 g,46 g,30–38 g,2.7 L,0.7 mg,0.4 mg,2.4 µg,75 mg,15 µg,15 mg,0.09 mg,1200 mg,8 mg,320 mg,1.8 mg
+Male,60-100,22.0 – 27.0,65–70 g,260 g,56 g,30–38 g,3 L,0.9 mg,0.4 mg,2.4 µg,90 mg,15 µg,15 mg,0.12 mg,1000 mg,8 mg,420 mg,2.3 mg
