@@ -215,5 +215,5 @@ class Patient:
             fig.delaxes(axes[j])
 
         plt.tight_layout()
-        plt.show()
         
+        return plt

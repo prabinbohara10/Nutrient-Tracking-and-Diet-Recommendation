@@ -2,6 +2,7 @@ import streamlit as st
 
 from raw_to_train import RawtoTrain, RawtoTrainLabel, RawtoTrainLabelOneHot
 from logic import Patient
+import time
 
 st.title("Medical Record tracking and Healthy Diet Recommendataion")
 
@@ -55,6 +56,26 @@ patient_current = Patient(
 print(patient_current.user_input_dict)
 
 if (st.button("Get Foods and Diet")):
+    st.divider()
+    st.success("See where you lie among all the people")
+    with st.spinner("Ready to see where you lie in the distro?..."):
+        time.sleep(1)  # Simulating loading time
+        locate_fig = patient_current.locate_patient()
+        st.pyplot(locate_fig)
+
+    st.divider()
     recommended_diet = patient_current.recommend_diet()[0]
-    st.text(recommended_diet)
-    st.text(patient_current.get_food_recommendation(recommended_diet))
+    st.success(f"You need to have : {recommended_diet}")
+    food_recommendations = patient_current.get_food_recommendation(recommended_diet)
+    
+    st.text("Following are the food recommendated to you:")
+    food_md = ""
+    for food in food_recommendations:
+        food_md += "- " + food + "\n"
+    
+    print(food_md)
+    st.markdown(food_md)
+    
+
+    
+    
