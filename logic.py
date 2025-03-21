@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import math
 import pickle
-import joblib
+from joblib import dump, load
 
 from raw_to_train import RawtoTrain, RawtoTrainLabel, RawtoTrainLabelOneHot
 
@@ -14,10 +14,8 @@ target_label_converter = None
 processed_df = None
 
 
-from joblib import dump, load
-
 # Load the model
-dt_model = load('models/filename.joblib')
+dt_model = load('models/dt_model.joblib')
 
 
 
