@@ -56,12 +56,13 @@ patient_current = Patient(
 print(patient_current.user_input_dict)
 
 if (st.button("Get Foods and Diet")):
+    st.set_option('client.showErrorDetails', True)
     st.divider()
     st.success("See where you lie among all the people")
     with st.spinner("Ready to see where you lie in the distro?..."):
         time.sleep(1)  # Simulating loading time
         locate_fig = patient_current.locate_patient()
-        st.pyplot(locate_fig)
+        st.pyplot(fig= locate_fig)
 
     st.divider()
     recommended_diet = patient_current.recommend_diet()[0]
@@ -75,6 +76,7 @@ if (st.button("Get Foods and Diet")):
     
     print(food_md)
     st.markdown(food_md)
+    st.divider()
     
 
     
