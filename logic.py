@@ -18,8 +18,6 @@ processed_df = None
 dt_model = load('models/dt_model.joblib')
 
 
-
-
 with open("models/inference_dict.pickle", "rb") as file:
     loaded_inference_pickle = pickle.load(file)
     print(loaded_inference_pickle)
@@ -30,7 +28,10 @@ processed_df = loaded_inference_pickle["processed_df"]
 
 
 
+import random
+
 class Patient:
+    
     def __init__(self, name: str, 
                 age: int, 
                 gender: str, 
@@ -62,9 +63,6 @@ class Patient:
 
 
     def __user_to_train_feature_conv(self):
-        print("inside")
-        print("type of height_cm : ", type(self.height_cm), "weight_kg : ", type(self.weight_kg))
-        print(self.height_cm, self.weight_kg)
         user_input_dict = {
             "Age" : self.age,
             "BMI" : raw_to_train.bmi_converter(self.height_cm, self.weight_kg),

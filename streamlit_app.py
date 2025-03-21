@@ -55,5 +55,6 @@ patient_current = Patient(
 print(patient_current.user_input_dict)
 
 if (st.button("Get Foods and Diet")):
-    st.text(patient_current.recommend_diet())
-    st.text(patient_current.get_food_recommendation())
+    recommended_diet = patient_current.recommend_diet()[0]
+    st.text(recommended_diet)
+    st.text(patient_current.get_food_recommendation(recommended_diet))
