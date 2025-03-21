@@ -33,8 +33,8 @@ alcohol_consumption = True if alcohol_consumption == "Yes" else False
 smoking_habit = st.radio("Do you smoke?", ("No", "Yes"))
 smoking_habit = True if smoking_habit == "Yes" else False
 
-dietary_habit = st.selectbox("What is your dietary habit?",
-                             ["Regular", "Vegetarian", "Keto", "Vegan"])
+# dietary_habit = st.selectbox("What is your dietary habit?",
+#                              ["Regular", "Vegetarian", "Keto", "Vegan"])
 
 
 
@@ -50,8 +50,7 @@ patient_current = Patient(
     daily_steps = daily_steps,
     sleep_hours= sleep_hours,
     alcohol_consumption = alcohol_consumption ,
-    smoking_habit = smoking_habit,
-    dietary_habit= dietary_habit
+    smoking_habit = smoking_habit
 )
 print(patient_current.user_input_dict)
 
