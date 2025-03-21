@@ -4,7 +4,7 @@ from raw_to_train import RawtoTrain, RawtoTrainLabel, RawtoTrainLabelOneHot
 from logic import Patient
 import time
 
-st.title("Medical Record tracking and Healthy Diet Recommendataion")
+st.title("Healthy Diet Recommendataion System")
 
 st.subheader("Please enter your details!")
 
